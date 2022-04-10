@@ -13,23 +13,25 @@ function App() {
   return (
       <div className="App">
         <Navbar />
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route exact path="/about">
-            <About />
-          </Route>
-          <Route exact path="/portfolio">
-            <Portfolio />
-          </Route>
-          <Route exact path="/blogs">
-            <Blogs />
-          </Route>
-          <Route exact path="/contact">
-            <Contact />
-          </Route>
-        </Switch>
+        <div className="ml-72">
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route exact path="/about">
+              <About />
+            </Route>
+            <Route exact path="/portfolio">
+              <Portfolio />
+            </Route>
+            <Route exact path="/blogs">
+              <Blogs />
+            </Route>
+            <Route exact path="/contact">
+              <Contact />
+            </Route>
+          </Switch>
+        </div>
         <Footer />
       </div>
   );
