@@ -1,3 +1,8 @@
+Server: npm start
+DB: json-server --watch db.json --port 4000
+tailwind: npx tailwindcss -i ./src/index.css -o ./dist/output.css --watch
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
